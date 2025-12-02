@@ -1,0 +1,22 @@
+* {
+  outline: 1px dotted red;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#score {
+    display: flex;
+    justify-content: space-between;
+}
+.gameBtn {
+    display: flex;
+    justify-content: space-around;
+}
